@@ -1,0 +1,32 @@
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+   
+    color: black;
+    height: 60%;
+    
+    justify-content: space-between;
+  }
+ .head{
+ color:black;
+ margin-bottom: 30px;
+ 
+ } 
+  .activeContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50%;
+  
+  }
+  
+  .textContainer h1 {
+    margin-bottom: 0px;
+  }
+  
+  @media (max-width: 600px) {
+    .sideBar {
+      display: none;
+    }
+  }
+ 
